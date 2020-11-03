@@ -1,0 +1,5 @@
+include ':annotation'
+include ':processor'
+include ':core'
+include ':app'
+rootProject.name = "FreeArtHook"
