@@ -1,12 +1,7 @@
 package com.goldenduo.freearthook.demo.gen;
-
-import android.app.Activity;
-import android.os.Bundle;
-
 import com.goldenduo.freearthook.demo.Demo;
-
 public class Proguard {
-    public static void onCreate(Activity thiz, Bundle savedInstanceState) {
+    public static void onCreate(android.app.Activity thiz, android.os.Bundle savedInstanceState) {
         Demo.onCreate(thiz, savedInstanceState);
     }
 }
